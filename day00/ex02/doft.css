@@ -133,13 +133,15 @@ margin-right: auto;
 
 .reload {
 	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
 	width: 20px;
 	height: auto;
 }
 
 .close {
-	float: right;
-	margin-top: 110px;
+	margin-left: 60px;
+	margin-top: 85px;
 	width: 20px;
 	height: auto;
 }
