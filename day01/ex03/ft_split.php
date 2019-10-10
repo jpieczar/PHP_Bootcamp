@@ -1,16 +1,8 @@
-#!/usr/bin/php
 <?php
-
 function ft_split($userin)
 {
-	$str= " ";
-	while ($i < strlen($userin))
-	{
-		
-		$i++;
-	}
+	$arr = preg_split('/[\s]+/', trim($userin));
+	sort($arr);
+	return ($arr);
 }
-
-ft_split("Hello world");
-
 ?>
