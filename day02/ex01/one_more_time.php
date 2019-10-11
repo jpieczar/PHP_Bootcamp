@@ -88,7 +88,7 @@ if ($argc == 2)
 
 	$numarr = array();
 
-	if ((preg_match('/^[A-Z]$/', $arr[2][0]) or preg_match('/^[a-z]$/', $arr[2][0])) > 0)
+	if ((array_search($arr[2], $months) or array_search($arr[2], $Lmonths)) > 0 )
 	{
 		if (preg_match('/^[A-Z]$/', $arr[2][0]))
 			$numarr[0] = array_search($arr[2], $months);
@@ -100,7 +100,7 @@ if ($argc == 2)
 		echo "Wrong Format\n";
 		exit();
 	}
-	if ((preg_match('/^[A-Z]$/', $arr[0][0]) or preg_match('/^[a-z]$/', $arr[0][0])) > 0)
+	if ((array_search($arr[0], $days) or array_search($arr[0], $Ldays)) > 0)
 	{
 		if (preg_match('/^[A-Z]$/', $arr[0][0]))
 			$numarr[1] = array_search($arr[0], $days);
