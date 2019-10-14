@@ -1,0 +1,73 @@
+body {
+	background-color: wheat;
+}
+
+.top {
+	display: flex;
+	justify-content: left;
+	background-image: url("img_resources/wood_background_light_wood.jpg");
+	background-repeat: repeat;
+	border-radius: 10px;
+	margin-left: 10%;
+	width: 1500px;
+	height: 150px;
+}
+
+.logo {
+	width: auto;
+	height: 137px;
+}
+
+.logotext {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 70px;
+	color: white;
+	text-shadow: 2px, 2px, black;
+}
+
+.topclicks {
+	display: flex;
+	justify-content: center;
+	margin-left: 80%;
+	justify-content: space-around;
+	width: 150px;
+	height: 50px;
+}
+
+.trolly {
+	width: auto;
+	height: 50px;
+}
+
+.table {
+	display: flex;
+	justify-content: center;
+	margin-top: 17px;
+	background-color: burlywood;
+	width: 1060px;
+	height: 765px;
+}
+
+.mid {
+	display: flex;
+	justify-content: center;
+}
+
+.book {
+	width: 150px;
+	height: auto;
+	box-shadow: 10px 10px 15px black;
+}
+
+.bookbutton {
+	box-shadow: 10px 10px 15px black;
+}
+
+.buttonspace {
+	display: flex;
+	justify-content: center;;
+}
+
+.blank {
+	width: 150px;
+}
