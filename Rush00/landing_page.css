@@ -22,13 +22,17 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 70px;
 	color: white;
-	text-shadow: 2px, 2px, black;
+}
+
+.besttext {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: teal;
 }
 
 .topclicks {
 	display: flex;
-	justify-content: center;
-	margin-left: 80%;
+	margin-left: 49%;
 	justify-content: space-around;
 	width: 150px;
 	height: 50px;
@@ -70,4 +74,23 @@ body {
 
 .blank {
 	width: 150px;
+}
+
+.loginbox {
+	background-image: url("img_resources/photo-1544716278-ca5e3f4abd8c.jpeg");
+	display: flex;
+	justify-content: center;
+	margin-top: 17px;
+	width: 1060px;
+	height: 765px;
+}
+
+.user {
+	margin-top: 15px;
+	width: 150px;
+	height: auto;
+}
+
+.userinput {
+	
 }

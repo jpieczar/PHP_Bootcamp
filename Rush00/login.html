@@ -6,14 +6,21 @@
 	<body>
 		<div class="top">
 			<p class="logotext">Book</p>
-			<img src="img_resources/open-book-nae-02 (1).png" alt="404" class="logo">
+			<a href="landing_page.html"><img src="img_resources/open-book-nae-02 (1).png" alt="404" class="logo"></a>
 			<p class="logotext">Store</p>
 		</div>
 		<div class="topclicks">
-				<h2 style="color: white;">Sign in page</h2>
+				<h2 class="besttext">Sign in page</h2>
 			</div>
 		<div class="mid">
-			<div class="table"></div>
+			<div class="loginbox">
+				<form action="login.php" method="POST">
+					<img src="img_resources/usericon.png" alt="404" class="user">
+					<input type="text" placeholder="Username" name="username" value="" required>
+					<input type="password" placeholder="Password" name="password" value="" required>
+					<button type="submit">Login</button>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
