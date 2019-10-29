@@ -1,0 +1,8 @@
+The user should not be able to see what is on this folder.
+This is the reason why the files here are seperated from the
+other files.
+
+The files here will be:
+	login script
+	sign-up script
+	logout script
