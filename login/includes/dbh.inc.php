@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $dBUsername = "root";
-$dBPassword = "303097JpP";
+$dBPassword = "###//__insert_password_here__//###";
 $dBName = "loginsystemtest";
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 if (!$conn) {
